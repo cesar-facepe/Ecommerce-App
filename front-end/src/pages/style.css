@@ -1,0 +1,28 @@
+body {
+    background-color: #282c3478;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.high-container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;  
+    overflow: hidden;   
+    margin: 0 auto; 
+    border-left: 2px dotted black;
+    border-right: 2px dotted black;
+}
+
+.box-data {
+    text-align: center;
+    height: 120px;
+    width: 290px;
+    margin: 4px 4px 21px 4px;
+    padding: 0px 0px 21px 0px;
+    overflow: hidden;  
+    border: .5px solid black;
+}
+

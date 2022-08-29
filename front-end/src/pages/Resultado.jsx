@@ -1,18 +1,20 @@
 import { useLocation } from "react-router-dom";
+import './style.css'
 
 const Resultado = () => {
 	const location = useLocation();
-	const { dados } = location.state;
+	const { dados, pesquisa } = location.state;
 
 	return (
 		<div>
-			<h1>Resultado</h1>
-			<div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }}>
+			<h1>Resultados</h1>
+			<h2>Exibindo resultados para: {pesquisa}</h2>
+			<div className="high-container">
 				{dados.resultado.map((dado) => (
-					<div key={dado.id}>
+					<div className='box-data' key={dado.id}>
 						<h2>{dado.nome}</h2>
-						<p>{dado.descricao}</p>
-						<p>{dado.preco}</p>
+						<h4>{dado.descricao}</h4>
+						<h4>Price: {dado.preco}</h4>
 					</div>
 				))}
 			</div>

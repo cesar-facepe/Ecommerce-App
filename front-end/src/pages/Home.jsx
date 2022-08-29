@@ -26,9 +26,10 @@ const Home = () => {
 									query: termoPesquisa,
 								}, {headers: {'Access-Control-Allow-Origin': '*'}})
 								.then((res) => {
-									console.log(res);
+									console.log(termoPesquisa);
                                     navigate("/resultado", {
-                                        state: { dados: res.data },
+                                        state: { dados: res.data,
+										pesquisa: termoPesquisa },
                                     });
 								})
 								.catch((err) => {
