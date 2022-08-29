@@ -8,33 +8,51 @@ def query(dados) -> dict:
         },
         {
             'id': 2,
-            'nome':'',
-            'descricao':'',
-            'preco':.0
+            'nome':'TESTE',
+            'descricao':'ADSDADsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaASDSA',
+            'preco':32.0
         },
         {
             'id': 3,
-            'nome':'',
-            'descricao':'',
-            'preco':.0
+            'nome':'lOAAA',
+            'descricao':'DASDASDAS',
+            'preco':534.0
         },
         {
             'id': 4,
-            'nome':'',
-            'descricao':'',
-            'preco':.0
+            'nome':'TESTE3333',
+            'descricao':'DDDSA',
+            'preco':424.0
         },
         {
             'id': 5,
-            'nome':'',
-            'descricao':'',
-            'preco':.0
+            'nome':'DSASDASD',
+            'descricao':'FDWDSFDFDSFDS',
+            'preco':67.0
         },
         {
             'id': 6,
-            'nome':'',
-            'descricao':'',
-            'preco':.0
+            'nome':'FGDDF',
+            'descricao':'DDFGGDF',
+            'preco':98.0
+        },
+        {
+            'id': 7,
+            'nome':'ADDDA',
+            'descricao':'DASADA',
+            'preco':89.0
+        },
+        {
+            'id': 8,
+            'nome':'FSDDFSFDS',
+            'descricao':'DFSDFSDFS',
+            'preco':8989.0
+        },
+        {
+            'id': 9,
+            'nome':'SDS',
+            'descricao':'ASDAF',
+            'preco':234.0
         },
     ]
     return result
