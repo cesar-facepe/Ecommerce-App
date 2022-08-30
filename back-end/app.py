@@ -1,7 +1,7 @@
 import json
 from flask import Flask, jsonify, request, make_response, render_template
 from flask_cors import CORS
-from query_response_dto import query
+from src.query_response_dto import query
 
 app = Flask(__name__)
 CORS(app)
@@ -17,7 +17,11 @@ def analise():
 @app.route("/api/pesquisar", methods=["POST"])
 def buscar():
     dados = json.loads(request.data)
-    resultado = query(dados)
+    try:
+        resultado = query(dados)
+    except Exception:
+        resultado = "Produto não consta na plataforma"
+    
     response = make_response(
         jsonify(
             {
