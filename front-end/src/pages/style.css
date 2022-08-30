@@ -1,5 +1,5 @@
 body {
-    background-color: #282c3478;
+    background-color: #ffffff;
 }
 
 h1, h2 {
@@ -14,6 +14,8 @@ h1, h2 {
     margin: 0 auto; 
     border-left: 2px dotted black;
     border-right: 2px dotted black;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-data {
@@ -24,5 +26,6 @@ h1, h2 {
     padding: 0px 0px 21px 0px;
     overflow: hidden;  
     border: .5px solid black;
+    border-radius: 10px;
 }
 

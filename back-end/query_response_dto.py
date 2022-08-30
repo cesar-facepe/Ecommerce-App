@@ -1,3 +1,5 @@
+from src.neural_search.__main__ import similar_items
+
 def query(dados) -> dict:
     result = [
         {
@@ -55,4 +57,4 @@ def query(dados) -> dict:
             'preco':234.0
         },
     ]
-    return result
+    return similar_items(dados['query'])
