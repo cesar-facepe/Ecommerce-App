@@ -5,8 +5,9 @@ import './style.css'
 const Resultado = () => {
 	const location = useLocation();
 	const { dados, pesquisa } = location.state;
-	console.log(dados)
-
+	dados.resultado.forEach((dado, indice, array) => (
+		console.log(dado, indice)
+	))
 	return (
 		<div>
 			<Header />
@@ -15,10 +16,8 @@ const Resultado = () => {
 			<div className="high-container">
 				{dados.resultado.map((dado) => (
 					<div className='box-data' key={dado.id}>
-						<span>resultado: {dado[0]}</span>
+						<span>{dado[0]}</span>
 						<span>precisão: {dado[1]}</span>
-						<span>{dado.descricao}</span>
-						<span>Price: {dado.preco}</span>
 					</div>
 				))}
 			</div>
