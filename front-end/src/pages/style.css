@@ -20,8 +20,8 @@ h1, h2 {
 
 .box-data {
     text-align: center;
-    height: 120px;
-    width: 290px;
+    height: 12rem;
+    width: 18rem;
     margin: 4px 4px 21px 4px;
     padding: 0px 0px 21px 0px;
     overflow: hidden;  

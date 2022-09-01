@@ -21,15 +21,14 @@ def buscar():
         resultado = query(dados)
     except Exception:
         resultado = "Produto não consta na plataforma"
-    
+    print(resultado)
     response = make_response(
         jsonify(
-            {
-                "resultado": resultado
-            }
+                {"resultado":resultado}
         )
     )
     response.headers.add("Access-Control-Allow-Origin", "*")
+    # response.headers["Content-Type"] = "application/json"
     return response
 
 if __name__ == "__main__":
