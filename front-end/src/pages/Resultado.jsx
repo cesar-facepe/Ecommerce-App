@@ -1,11 +1,10 @@
 import { useLocation } from "react-router-dom";
 import Header from "../components/Header";
-import "./style.css";
+import './style.css'
 
 const Resultado = () => {
 	const location = useLocation();
 	const { dados, pesquisa } = location.state;
-
 	return (
 		<div>
 			<Header />
