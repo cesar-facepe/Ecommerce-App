@@ -12,7 +12,7 @@ const Home = () => {
 			<Header />
 			<div className="main">
 				<h1>
-					<spam>Software, Business and more. No limits.</spam>
+					<span>Software, Business and more. No limits.</span>
 				</h1>
 				<h2>Buy wherever you want.</h2>
 				<h2>Ready to buy? Just take a shot!</h2>
