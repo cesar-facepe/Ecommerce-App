@@ -7,8 +7,8 @@ const Header = () => {
     const navigate = useNavigate();
     const [termoPesquisa, setTermoPesquisa] = useState("");
 	return (
-		<header className="header" onClick={()=>{navigate("/")}}>
-            <div>
+		<header className="header">
+            <div onClick={()=>{navigate("/")}}>
 				<img src="../../logo.png" alt="logo" width={40} height={40} className="img"/>
 				<h1>LitorAll</h1>
             </div>

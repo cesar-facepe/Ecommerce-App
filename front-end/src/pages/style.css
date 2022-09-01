@@ -2,7 +2,7 @@ body {
     background-color: #ffffff;
 }
 
-h1, h2 {
+h1, h2, h4 {
     text-align: center;
 }
 
@@ -16,17 +16,19 @@ h1, h2 {
     border-right: 2px dotted black;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .box-data {
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 12rem;
-    width: 18rem;
+    height: 18rem;
+    width: 26rem;
     margin: 4px 4px 21px 4px;
     padding: 0px 0px 21px 0px;
-    overflow: hidden;  
+    overflow: hidden; 
     border: .5px solid black;
     border-radius: 10px;
 }
@@ -39,11 +41,38 @@ h1, h2 {
     margin: auto;
     width: 950px;
     height: 491px;
+    margin-top: 8rem;
 }
 
-.main spam {
+.main span {
     border-bottom: 1px solid black;
     font-size: 66px;
     width: 800px;
     height: 141px;
+}
+
+
+.inner-box-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 0.2rem;
+}
+
+br {
+    margin-bottom: 0.4rem;
+}
+
+.inner-box-data span {
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.feat {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }

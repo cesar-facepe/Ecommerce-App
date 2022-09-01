@@ -40,6 +40,7 @@ const Home = () => {
 								)
 								.then((res) => {
 									console.log(termoPesquisa);
+									console.log(res.data);
 									navigate("/resultado", {
 										state: {
 											dados: res.data,
