@@ -9,7 +9,7 @@ const Header = () => {
 	return (
 		<header className="header">
             <div onClick={()=>{navigate("/")}}>
-				<img src="../../logo.png" alt="logo" width={40} height={40} className="img"/>
+				<img src="/static/logo.png" alt="logo" width={40} height={40} className="img"/>
 				<h1>LitorAll</h1>
             </div>
             <div>
