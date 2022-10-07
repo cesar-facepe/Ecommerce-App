@@ -1,2 +1,2 @@
 front-end/** linguist-detectable
-back-end/** linguist-detectable
+back-end/app.py linguist-detectable
