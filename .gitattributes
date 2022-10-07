@@ -1,5 +1,8 @@
-
+front-end/src/App.js linguist-detectable
+front-end/src/Index.js linguist-detectable
+front-end/src/index.css linguist-detectable
+front-end/src/components/Header.jsx linguist-detectable
 
 back-end/app.py linguist-detectable
 back-end/src/query_response_dto.py linguist-detectable
-back-end/src/neural_search/__main__.py linguist-detectable
+
