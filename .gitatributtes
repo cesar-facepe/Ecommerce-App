@@ -1,0 +1,17 @@
+* linguist-vendored
+*.html linguist-vendored=true
+
+*.js linguist-vendored=false
+*.py linguist-vendored=false
+
+*.js linguist-detectable=true
+*.py linguist-detectable=true
+
+front-end/src/App.js linguist-detectable=true
+front-end/src/Index.js linguist-detectable=true
+front-end/src/index.css linguist-detectable=true
+front-end/src/components/Header.jsx linguist-detectable=true
+
+back-end/app.py linguist-detectable=true
+back-end/src/query_response_dto.py linguist-detectable=true
+back-end/src/neural_search/__main__.py linguist-detectable=true
